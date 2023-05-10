@@ -1,0 +1,130 @@
+@media screen and (max-width: 1023px){
+    /* ----------- header ------------ */
+    header{
+        padding: 10px 0px 0px 0px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    header .logo{
+        flex-basis: 100%;
+    }
+    header .logo span{
+        top: 0;
+        left: -80px;
+    }
+    /* ----------- header ------------ */
+    /* ------------- section ------------ */
+    section{
+        margin: 0px 20px;
+    }
+    /* ------------- section ------------ */
+    /* -------------- article ------------- */
+    article{
+        padding: 0px 25px;
+    }
+    .quote{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    /* -------------- article ------------- */
+    /* --------------- footer ------------- */
+    footer{
+        padding: 30px 20px 20px;
+    }
+    footer .app{
+        justify-content: space-between;
+        gap: 20px;
+    }
+    /* --------------- footer ------------- */
+}
+@media screen and (max-width: 768px) {
+    /* -------------- article ------------- */
+    article{
+        padding: 0;
+    }
+    .list_style{
+        padding: 0px 20px;
+        flex-wrap: wrap;
+    }
+    .list_style .style{
+        flex-basis: 34%;
+    }
+    /* -------------- article ------------- */
+    /* --------------- footer ------------- */
+    footer{
+        gap: 0px;
+        justify-content: space-between;
+    }
+    /* --------------- footer ------------- */
+}
+@media screen and (max-width: 600px){
+    /* ----------- header ------------ */
+    header{
+        height: 100px;
+    }
+    /* ----------- header ------------ */
+    /* ----------- nav ------------ */
+    nav{
+        display: none;
+    }
+    /* ----------- nav ------------ */
+    /* --------------- footer ------------- */
+    footer{
+        flex-direction: column;
+    }
+    footer span{
+        padding: 20px 0px;
+    }
+    .app{
+        gap: 20px;
+    }
+    .app a{
+        font-size: 19px;
+    }
+    /* --------------- footer ------------- */
+}
+@media screen and (max-width: 420px){
+    /* ----------- header ------------ */
+    header .logo span{
+        top: 10px;
+        left: -90px;
+    }
+    /* ----------- header ------------ */
+    /* ----------- section ------------ */
+    section{
+        flex-direction: column;
+    }
+    section > div{
+        flex-basis: 100%;
+    }
+    .text_banner{
+        padding: 20px;
+        font-size: 20px;
+    }
+    /* ----------- section ------------ */
+    /* ----------- article ------------ */
+    .list_style{
+        flex-wrap: wrap;
+    }
+    .list_style .style{
+        flex-basis: 100%;
+    }
+    /* ----------- article ------------ */
+    /* ----------- quote ------------ */
+    .sontung-mtp{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .img_sontung{
+        flex: 1;
+        flex-basis: 100%;
+    }
+    .img_sontung img{
+        width: 100%;
+        position: static;
+    }
+    .sontung_said{
+        flex-basis: 100%;
+    }
+    /* ----------- quote ------------ */
+}
