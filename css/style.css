@@ -83,6 +83,7 @@ section{
     font-size: 30px;
     font-weight: bold;
     padding: 0px 100px 80px 100px;
+    font-family: 'Changa One', cursive;
 }
 .text_banner span{
     display: block;
@@ -159,12 +160,14 @@ article{
     padding: 10px 20px;
     background-color: rgb(21, 21, 66);
     color: white;
-    width: 70px;
+    width: 98px;
     text-align: center;
     position: absolute;
     top: -10px;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 2px;
+    font-family: 'Comfortaa', cursive;
 }
 /* --------------- featured -------------- */
 /* --------------- hairstyle -------------- */
